@@ -1,12 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>personal portfolio</title>
+    <style type="text/css">
+        @font-face {
+            font-family: "Grotesk";
+            src: url("./fonts/Grotesk.woff2") format("woff2");
+        }
+    </style><!-- intro style -->
+
 </head>
+
 <body>
-    <p>dada2</p>
+
+    <style>
+        html,
+        body,
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .author {
+            font-family: Grotesk;
+            font-size: 26px;
+            color: #000000;
+            letter-spacing: 0.013em;
+            line-height: 1.25;
+            font-weight: 400;
+            text-transform: none;
+            font-style: normal;
+            margin-left: 3%;
+        }
+
+        section {
+            margin: 100px 3% 8%;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        section div {
+            width: 100%;
+        }
+
+        section div img {
+            width: 100%;
+        }
+
+        .portfolio .left {
+            margin-left: 3%;
+        }
+
+        .portfolio .right {
+            padding-top: 8vw;
+            margin-left: 20%;
+        }
+
+        .portfolio .title {
+            font-family: Grotesk;
+            margin-top: 5px;
+            font-size: 20px;
+            line-height: 1.25;
+            font-weight: 400;
+        }
+
+        .portfolio .center {
+            margin-left: 4%;
+            width: 52%;
+        }
+
+        .portfolio .calendar {
+            width: 56%;
+            flex: 1;
+        }
+
+        .portfolio .sntky {
+            width: 80%;
+            margin-top: 12%;
+            flex: 1;
+        }
+
+
+        .portfolio .in_town {
+            width: 40%;
+        }
+
+        .portfolio .posters {
+            width: 28%;
+        }
+
+        .portfolio.start {
+            justify-content: start;
+        }
+        .portfolio.mb0{
+            margin-bottom: 0;
+        }
+
+        .portfolio .phovea {
+            width: 28%;
+            margin-left: 8%;
+            position: relative;
+            top: -180px;
+        }
+
+        .portfolio .ntky {
+            width: 46%;
+            margin-left: 16%;
+        }
+
+        .portfolio .huber {
+            width: 52%;
+        }
+
+        .portfolio .alice {
+            width: 28%;
+            margin-left: 14%;
+        }
+        .portfolio .masque{
+            width: 22%;
+            margin-left: 6%;
+            position: relative;
+            top: 75px;
+        }
+        .portfolio .telephone{
+            width: 46%;
+            margin-left: 14%;
+        }
+        .portfolio .is_war{
+            width: 40%;
+        }
+        .portfolio .belvedere{
+            margin-left: 20%;
+            width: 28%;
+        }
+        .portfolio .movie{
+            width: 58%;
+        }
+        footer{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 8px;
+        }
+        footer a{
+            font-family: Grotesk;
+            color: #000000;
+        }
+
+        @media screen {
+            
+        }
+    </style>
+    <header>
+        <a href="/">
+            <h1 class="author">2021作品集</h1>
+        </a>
+    </header>
+    <section class="portfolio">
+        <div class="left">
+            <img src="./images/陈政强 作业1.jpg" alt="">
+            <div class="title">
+                <p>Brave cattle, not afraid of difficulties!</p>
+                <p>2021 Year of the ox Poster</p>
+               
+            </div>
+        </div>
+        <div class="right">
+            <img src="./images/陈政强 作业.jpg" alt="">
+            <div class="title">
+                <p>Guitar stuff</p>
+                <p>Demacia</p>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="center">
+            <img src="./images/gddd.jpg" alt="">
+            <div class="title" >
+                <p>The combination of colors</p>
+                <p>Visual identity</p>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio left">
+        <div>
+            <div class="calendar">
+                <img src="./images/陈政强 作业2.jpg" alt="">
+                <div class="title">
+                    <p>Beauty, refuse to repeat</p>
+                    <p>Calendar</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="sntky">
+                <img src="./images/god1.jpg" alt="">
+                <div class="title">
+                    <p>View the mountains and the sea</p>
+                    <p>picture album</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="in_town">
+            <img src="./images/爱心.png" alt="">
+            <div class="title">
+                <p>i love you</p>
+                <p>Black and white</p>
+            </div>
+        </div>
+        <div class="posters">
+            <img src="./images/25b8db02f4bf9c43a3665ee623ca2435236dbf0fc81a01-by4qUX.gif" alt="">
+            <div class="title">
+                <p>New products</p>
+                <p>Posters</p>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio start mb0">
+        <div class="phovea">
+            <img src="./images/天使.jpg" alt="">
+            <div class="title">
+                <p>Weeping angel</p>
+                <p>Tear</p>
+            </div>
+        </div>
+        <div class="ntky">
+            <img src="./images/深海.jpg" alt="">
+            <div class="title">
+                <p>Deep sea sleep</p>
+                <p>The whale is breathing</p>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio start">
+        <div class="huber">
+            <img src="./images/女孩.png" alt="">
+            <div class="title">
+                <p>Rain on paper</p>
+                <p>Girl</p>
+            </div>
+        </div>
+        <div class="alice">
+            <img src="./images/蝙蝠侠.png" alt="">
+            <div class="title">
+                <p>Batman</p>
+                <p>2021</p>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio start">
+        <div class="masque">
+            <img src="./images/食品.png" alt="">
+            <div class="title">
+                <p>What's behind the door</p>
+                <p>Food</p>
+            </div>
+        </div>
+        <div class="telephone">
+            <img src="./images/动画.png" alt="">
+            <div class="title">
+                <p>Boys and bears</p>
+                <p>Harmonious forest</p>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio start">
+        <div class="is_war">
+            <img src="./images/北极.png" alt="">
+            <div class="title">
+                <p>Beiji</p>
+                <p>Book</p>
+            </div>
+        </div>
+        <div class="belvedere">
+            <img src="./images/海报.png" alt="">
+            <div class="title">
+                <p>Creative letters</p>
+                <p>colour</p>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="center movie">
+            <img src="./images/莲花少女.png" alt="">
+            <div class="title">
+                <p>Lotus girl</p>
+                <p>Pure and immaculate</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="/">© rfirefly</a>
+    </footer>
 </body>
-</html> 
+
+</html>
